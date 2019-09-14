@@ -17,21 +17,21 @@ export class HttpService {
     },
     {
       name: "Charmander",
-      price: 15.99,
+      price: 11.99,
       description: "",
       img:
         "https://www.pokemoncenter.com/wcsstore/PokemonCatalogAssetStore/images/catalog/products/P2931/701-00074/P2931_701-00074_01.jpg"
     },
     {
       name: "Squirtle",
-      price: 15.99,
+      price: 18.99,
       description: "",
       img:
         "https://www.pokemoncenter.com/wcsstore/PokemonCatalogAssetStore/images/catalog/products/P2931/701-00073/P2931_701-00073_01.jpg"
     },
     {
       name: "Bulbasaur",
-      price: 15.99,
+      price: 14.99,
       description: "",
       img:
         "https://www.pokemoncenter.com/wcsstore/PokemonCatalogAssetStore/images/catalog/products/P2931/701-00072/P2931_701-00072_01.jpg"
