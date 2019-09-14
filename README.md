@@ -13,6 +13,8 @@ Changes made to the app include:
   - An interface has been added to make managing products in the future easier.
   - An addPlushies() function will be added later.
 - Sign in component has basic input areas
-  - Sign in button links to products page when clicked
+  - Sign in button links to products page when clicked regardless if values have been inputted into username and password fields
+    - Will eventually add alerts for successful login and login failures.
+    - Successful login will also link to products while failure does not.
 - Home component has welcome text and picture.
 - Products component shows a list of all hardcoded products with corresponding price and image.
