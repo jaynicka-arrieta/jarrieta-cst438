@@ -6,6 +6,7 @@ body {
   margin: 0;
   font-family: "Nunito", "sans-serif";
   font-size: 18px;
+  background-color: rgb(255, 251, 190);
 }
 
 .container {
@@ -23,6 +24,7 @@ header {
   }
   a.logo {
     font-weight: bold;
+    padding-left: 1em;
   }
 
   nav {

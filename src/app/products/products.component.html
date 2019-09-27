@@ -2,8 +2,12 @@
 
 <ul *ngIf="plushies">
   <li *ngFor="let plushie of plushies">
-    <p class="name">{{ plushie.name }}</p>
+    <a href="#" routerLink="/details">
+      <p class="name">{{ plushie.name }}</p>
+    </a>
     <p class="price">${{ plushie.price }}</p>
-    <img src="{{ plushie.img }}" style="width: 130px;height: 130px;" />
+    <a href="#" routerLink="/details">
+      <img src="{{ plushie.img }}" style="width: 130px;height: 130px;" />
+    </a>
   </li>
 </ul>

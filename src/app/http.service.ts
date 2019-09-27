@@ -11,30 +11,30 @@ export class HttpService {
     {
       name: "Pikachu",
       price: 15.99,
-      description: "",
-      img:
-        "https://www.pokemoncenter.com/wcsstore/PokemonCatalogAssetStore/images/catalog/products/P2931/701-00071/P2931_701-00071_01.jpg"
+      description: "Ditto disguised as Pikachu.",
+      img: "./assets/pikachu.jpg",
+      inStock: true
     },
     {
       name: "Charmander",
       price: 11.99,
-      description: "",
-      img:
-        "https://www.pokemoncenter.com/wcsstore/PokemonCatalogAssetStore/images/catalog/products/P2931/701-00074/P2931_701-00074_01.jpg"
+      description: "Ditto disguised as Charmander.",
+      img: "./assets/charmander.jpg",
+      inStock: true
     },
     {
       name: "Squirtle",
       price: 18.99,
-      description: "",
-      img:
-        "https://www.pokemoncenter.com/wcsstore/PokemonCatalogAssetStore/images/catalog/products/P2931/701-00073/P2931_701-00073_01.jpg"
+      description: "Ditto disguised as Squirtle.",
+      img: "./assets/squirtle.jpg",
+      inStock: true
     },
     {
       name: "Bulbasaur",
       price: 14.99,
-      description: "",
-      img:
-        "https://www.pokemoncenter.com/wcsstore/PokemonCatalogAssetStore/images/catalog/products/P2931/701-00072/P2931_701-00072_01.jpg"
+      description: "Ditto disguised as Bulbasaur.",
+      img: "./assets/bulbasaur.jpg",
+      inStock: true
     }
   ];
 
@@ -50,4 +50,5 @@ interface Plushie {
   price: number;
   description: string;
   img: string;
+  inStock: boolean;
 }

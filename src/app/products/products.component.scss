@@ -6,14 +6,15 @@ ul {
   flex-wrap: wrap;
 
   li {
-    background: rgb(238, 238, 238);
+    background: #f3e6ff;
     padding: 1em;
-    margin-right: 10px;
+    margin: 10px;
     width: 20%;
     height: 200px;
     margin-bottom: 1em;
-    display: flex;
     flex-direction: column;
+    text-align: center;
+    display: block;
 
     p {
       margin: 0;
