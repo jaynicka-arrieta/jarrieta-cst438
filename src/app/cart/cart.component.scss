@@ -1,0 +1,24 @@
+table {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgba(236, 194, 255, 0.623);
+  tr {
+    border: 1px solid black;
+  }
+
+  td {
+    img {
+      width: 25%;
+    }
+
+    label {
+      font-size: 20px;
+    }
+
+    input {
+      font-size: 20px;
+      width: 5ch;
+    }
+  }
+}

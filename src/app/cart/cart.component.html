@@ -1,1 +1,57 @@
-<p>cart works!</p>
+<table>
+  <tr>
+    <td>
+      <img src="../../assets/pikachu.jpg" />
+    </td>
+    <td class="info">
+      <p><b>Item Name: </b> Pikachu</p>
+      <p><b>Price:</b> $15.99</p>
+      <label><b>Qty: </b></label>
+      <input type="text" value="1" />
+      <p><b>Total: </b> $15.99</p>
+      <!-- Rerouting to cart until actual remove function is created -->
+      <a routerLink="cart">
+        <p><b>Remove</b></p>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../../assets/squirtle.jpg" />
+    </td>
+    <td class="info">
+      <p><b>Item Name: </b> Squirtle</p>
+      <p><b>Price:</b> $18.99</p>
+      <label><b>Qty: </b></label>
+      <input type="text" value="2" />
+      <p><b>Total: </b> $37.98</p>
+      <a routerLink="cart">
+        <p><b>Remove</b></p>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="../../assets/charmander.jpg" />
+    </td>
+    <td class="info">
+      <p><b>Item Name: </b> Charmander</p>
+      <p><b>Price:</b> $11.99</p>
+      <label><b>Qty: </b></label>
+      <input type="text" value="4" />
+      <p><b>Total: </b> $47.96</p>
+      <a routerLink="cart">
+        <p><b>Remove</b></p>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td class="info">
+      <p><b>Subtotal: </b>$101.93</p>
+      <p><b>Tax (9%): </b>$9.17</p>
+      <p><b>Total: </b>$111.10</p>
+      <a routerLink="/checkout"><b>Checkout</b></a>
+    </td>
+  </tr>
+</table>

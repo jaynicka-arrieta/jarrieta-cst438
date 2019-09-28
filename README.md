@@ -18,3 +18,16 @@ Changes made to the app include:
     - Successful login will also link to products while failure does not.
 - Home component has welcome text and picture.
 - Products component shows a list of all hardcoded products with corresponding price and image.
+
+## Sprint 2
+
+Changes made to the app include:
+
+- Adding Details, Cart, Checkout, and Finalize components.
+- From Products page, user can click on a product and be brought to the product details page.
+- User can add product to their cart.
+- From cart page, user can adjust quantity, however actual values do not change (will implement later).
+  - Remove hyperlink will be turned into a button. Currently just reroutes to cart (does nothing).
+  - Checkout link brings user to Checkout page.
+- User can fill out form and press "Complete Order" to be brought to Confirmation page.
+- User can click "Return Home" to be brought back to the home page.

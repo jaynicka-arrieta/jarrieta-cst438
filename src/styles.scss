@@ -49,3 +49,24 @@ header {
 h1 {
   margin-top: 2em;
 }
+
+table {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+
+  img {
+    width: 100%;
+  }
+
+  .info {
+    vertical-align: top;
+    padding: 1em;
+    font-size: 20px;
+  }
+}
+
+a:hover {
+  background-color: rgba(119, 0, 255, 0.432);
+  color: rgb(255, 255, 53);
+}
